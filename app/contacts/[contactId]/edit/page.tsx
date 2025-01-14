@@ -8,5 +8,5 @@ type PageProps = {
 
 export default async function EditContactPage({ params }: PageProps) {
   const contactId = (await params).contactId;
-  return <ContactForm contactId={contactId} />;
+  return   <ContactForm contactId={contactId} />;
 }
